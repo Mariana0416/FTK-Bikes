@@ -1,0 +1,103 @@
+body{
+    color: black;
+    background-size: 100% ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(Fondo5.jpeg);
+}
+header{ 
+    position: relative;
+    width: 1340px;
+    height: 150px;
+    font-size: 25px;
+    top: 0;
+    color:rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Logo{
+    position: absolute;
+    width:150px;
+    right:420px;
+}
+#Bmx{
+    position: absolute;
+    right: 200px;
+    bottom:50px;
+}
+#Shop{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
+.Menu li{
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    top: -130px;
+    font-weight: bold;
+    font-size:larger;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    width: auto;
+    border-radius: 8px;
+}
+.Menu li:hover{
+ background-color: rgb(0, 0, 0); 
+ color: white;  
+}
+#Bike{
+    position:absolute;
+    right: 600px;
+    bottom: 100px;
+}
+#Facebook{
+    position: absolute;
+    width: 60px;
+    right: 178px;
+    top: 130px;
+    cursor: pointer;
+}
+#Instagram{
+    position: absolute;
+    width: 80px;
+    right: 248px;
+    top: 161px;
+    cursor: pointer;
+}
+p{
+    position: absolute;
+    top: 250px;
+    font-size: larger;
+    text-align: center;
+    right: 40px;
+    color: white;
+}
+#Footer{
+    position: absolute;
+    top: 620px;
+    width: 900px;
+}
+#WhatsApp{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#Con{
+    position: absolute;
+    right: 40px;
+    color: white;
+    bottom: 40px;
+}
+#Num1{
+    position: absolute;
+    right: 152px;
+    color: white;
+    bottom: 20px;
+}
+#Num2{
+    position: absolute;
+    right: 152px;
+    color: white;
+    bottom: 0px;
+}
